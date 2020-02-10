@@ -48,3 +48,5 @@ public class Program
 
 // Mulitple class inheritance is not possible whereas Multi Level class inheritance is possible
 // Base classes are instantiated before derived classes.
+// base keyword can be used to control which constructor gets called from base constructor
+// public class b: base("")
