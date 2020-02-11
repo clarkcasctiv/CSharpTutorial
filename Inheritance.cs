@@ -8,6 +8,7 @@ public class Employee
 
     public void PrintName()
     {
+        System.Console.WriteLine(FirstName + "" + LastName);
 
     }
 }
@@ -33,9 +34,6 @@ public class Program
         a.PrintName();
         a.YearlySalary = "";
     }
-
-
-
 }
 
 
