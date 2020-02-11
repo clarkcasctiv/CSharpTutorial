@@ -7,16 +7,30 @@ public class Student
     private int _passMark = 35;
     private string _address;
 
+    private string _number;
+    public string _number
+    {
+        get
+        {
+            return _number;
+        }
+        set
+        {
+            _number = value;
+        }
+    }
+
     public string Address
     {
         get
         {
-            this._address = value;
+            return this._address;
         }
         set
         {
-            return this._address;
+            this._address = value;
         }
+        
     }
     // Auto Implemented Property
     // Similar To
@@ -37,7 +51,7 @@ public class Student
         }
     }
 
-
+    // Read/Write Property
     public string Name
     {
         set
@@ -54,7 +68,7 @@ public class Student
         }
     }
 
-
+    // Read Only Property
     public int PassMark
     {
         get
