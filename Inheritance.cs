@@ -32,7 +32,6 @@ public class Program
         a.FirstName = "";
         a.Email = "";
         a.PrintName();
-        a.YearlySalary = "";
     }
 }
 

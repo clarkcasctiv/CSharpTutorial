@@ -7,7 +7,7 @@ class Circle
 
     static Circle()
     {
-        _PI = 3.14;
+        _PI = 3.14F;
 
     }
 
@@ -23,7 +23,7 @@ class Circle
 
     public static void PrintRadius()
     {
-        return this._radius;
+        System.Console.WriteLine("");
     }
 }
 

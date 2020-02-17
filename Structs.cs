@@ -11,7 +11,7 @@ public struct Student
         _name = Name;
     }
 
-    public string Id
+    public int Id
     {
         get
         {
@@ -47,7 +47,8 @@ public class Program
         C2.Name = "John";
 
         // Object Initialization Syntax
-        Student C3 = new Student{
+        Student C3 = new Student
+        {
             Id = 123,
             Name = "Rob"
         };

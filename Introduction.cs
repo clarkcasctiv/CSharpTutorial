@@ -1,13 +1,14 @@
 // Using System Namespace
 using System;
+
 namespace Tutorial
 {
 class Program
     {
         //Main Entry Point of application
-        public static void main()
+        public static void Main()
         {
-            Console.Writeline("Welcome!!");
+            Console.WriteLine("Welcome!!");
         }
     }
 }

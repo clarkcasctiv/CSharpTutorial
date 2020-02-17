@@ -6,7 +6,7 @@
 using System;
 class Program
 {
-    public static void main()
+    public static void Main()
     {
         // Displaying double quotes in c#
         string Name = "\"Pujan\"";

@@ -6,17 +6,16 @@ class Program
     // Method Body
     //}
 
-    public static void main()
+    public static void Main()
     {
 
         // To Invoke Static method
-        Program.Even();
+        Program10.Even();
         Even();
 
         // To Invoke Instance(Non Static) method
-        Program p = new Program();
+        Program10 p = new Program10();
         p.Odd();
-        Odd();
     }
 
     public static void Even()

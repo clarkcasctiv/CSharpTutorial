@@ -10,7 +10,7 @@ namespace Tutorial
 {
     class Program
     {
-        public static void main()
+        public static void Main()
         {
             // Null Coalescing Operator
             // Set another value if value is null

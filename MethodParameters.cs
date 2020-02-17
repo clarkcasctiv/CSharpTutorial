@@ -13,7 +13,7 @@ class Program
 
         // Passing By Reference
         int j = 0;
-        SimpleMethod(ref j);
+        // SimpleMethod(ref j);
         System.Console.WriteLine(i);
 
         // Value of j will be 101
@@ -44,12 +44,12 @@ class Program
 
     public static void SimpleMethod(int k)
     {
-        int k = 101;
+         k = 101;
     }
 
     public static void SimpleMethod1(ref int l)
     {
-        int l= 101;
+        l= 101;
     }
 
     public static void Calculate(int a, int b, out int sum, out int product)

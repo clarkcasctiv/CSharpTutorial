@@ -18,21 +18,21 @@ namespace Tutorial
 {
     class Program
     {
-        public static void main()
+        public static void Main()
         {
             // Implicit Conversion
             int i = 100;
             float f = i;
 
-            Console.Writeline(f);
+            Console.WriteLine(f);
 
-            float g = 123.45;
+            float g = 123.45F;
             int j = (int)f;
 
-            Console.Writeline(j);
+            Console.WriteLine(j);
 
             // Using a typecast operator wont throw exception whereas Convert class will throw Overflow Exception
-            float k = 12314511515151515.123123;
+            // float k = 12311515151515.123123;
             int q = (int)f;
             int w = Convert.ToInt32(f);
 
@@ -42,10 +42,6 @@ namespace Tutorial
             bool conversion = int.TryParse(str, out result); // wont throw exception, returns true if conversion is successful else false 
             Console.WriteLine(t);
             Console.WriteLine(result);
-
-
-
-
         }
     }
 }

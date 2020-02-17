@@ -28,7 +28,7 @@ public class Program : I1, I2
     }
     public static void Main()
     {
-        Program p = new Program();
+        Program P = new Program();
         ((I1)P).Print();
         ((I2)P).Print();
         

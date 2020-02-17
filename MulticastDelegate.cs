@@ -4,9 +4,9 @@
 using System;
 
 public delegate void SampleDelegate();
-class Program
+public class Sample
 {
-    public static void Main()
+    static void Main()
     {
         // + or += to register
         // - Or -= to unregister
@@ -22,9 +22,9 @@ class Program
 
         // Or
         SampleDelegate del = new SampleDelegate(One);
-        del += Two();
-        del += Three();
-        del -= One();
+        del += Two;
+        del += Three;
+        del -= One;
         del();
 
     }

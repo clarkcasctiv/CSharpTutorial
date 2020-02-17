@@ -1,5 +1,3 @@
-using System;
-
 public class BaseClass
 {
     public virtual void Print()
@@ -23,7 +21,7 @@ public class DerivedClass: BaseClass
 }
 
 // Method Hiding
-public class DerivedClass : BaseClass
+public class DerivedClass1 : BaseClass
 {
     // A base class reference pointing to a child class object will invoke the hidden method in the base class
     public new void Print()

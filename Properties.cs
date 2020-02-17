@@ -8,7 +8,7 @@ public class Student
     private string _address;
 
     private string _number;
-    public string _number
+    public string Number
     {
         get
         {
@@ -37,7 +37,7 @@ public class Student
     public string City { get; set; }
     public int Id
     {
-        get
+        set
         {
             if (value <= 0)
             {
@@ -45,7 +45,7 @@ public class Student
             }
             this._id = value;
         }
-        set
+        get
         {
             return this._id;
         }

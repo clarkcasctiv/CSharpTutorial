@@ -1,6 +1,6 @@
 using System;
 
-class A {
+public class A {
     public virtual void Print()
     {
         System.Console.WriteLine("A");
@@ -24,9 +24,9 @@ public class C : A
 
 // Multiple class inheritance
 // Ambiguity due to which class does Class D inherit from? B or C?
-public class D : B,C 
-{
-}
+// public class D : B,C 
+// {
+// }
 
 
 // Class A

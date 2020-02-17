@@ -18,8 +18,6 @@
 
 // Initialization; Conditional; Iteration
 
-
-using System;
 namespace CSharpTutorial
 {
 
@@ -37,12 +35,12 @@ namespace CSharpTutorial
                 System.Console.WriteLine(item);
 
             }
-            for (int i = 0; i < numbers.length; i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
                 System.Console.WriteLine(numbers[i]);
             }
             int j = 0;
-            while (j < numbers.length)
+            while (j < numbers.Length)
             {
                 System.Console.WriteLine(numbers[j]);
                 j++;
